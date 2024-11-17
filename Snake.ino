@@ -28,7 +28,7 @@ struct Pin {
 	static const short joystickVCC = 15; // virtual VCC for the joystick (Analog 1) (to make the joystick connectable right next to the arduino nano)
 	static const short joystickGND = 14; // virtual GND for the joystick (Analog 0) (to make the joystick connectable right next to the arduino nano)
 
-	static const short potentiometer = A7; // potentiometer for snake speed control
+	static const short potentiometer = A5; // potentiometer for snake speed control
 
 	static const short CLK = 10;   // clock for LED matrix
 	static const short CS  = 11;  // chip-select for LED matrix
